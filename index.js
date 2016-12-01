@@ -34,7 +34,7 @@ const handlerJson = (file) => {
     	})()
     }
 
-    fs.writeFile(path.join(process.cwd(),'magazine.debug.json'), JSON.stringify(data), 'utf8', (err) => {
+    fs.writeFile(path.join(process.cwd(),'magazine.json'), JSON.stringify(data), 'utf8', (err) => {
 	  if (err) throw err;
 	  console.log(chalk.green('It\'s done! ٩(ˊωˋ*)و'));
 	});
