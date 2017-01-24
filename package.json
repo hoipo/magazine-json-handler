@@ -1,6 +1,6 @@
 {
   "name": "magazine-json-handler",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "to handle the json data for pchouse or pcauto magazine",
   "main": "index.js",
   "scripts": {
