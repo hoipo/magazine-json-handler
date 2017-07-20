@@ -21,10 +21,7 @@ const handlerJson = (file) => {
     		originData.sections.forEach( (el, i)=>{
     			el.articles.forEach( (element, index) => {
     				delete element.url
-    				delete element.author;
-    				delete element.intro;
     				delete element['big-html'];
-    				delete element['nav-ver'];
     				delete element['nav-hor'];
     				delete element['pdf-hor'];
     				let _ipadId = element['comment-url'].replace('http://magazine.pchouse.com.cn/','').replace('http://magazine.pcauto.com.cn/','').split('/');
